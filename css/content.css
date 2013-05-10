@@ -207,6 +207,9 @@ body > header#overview li:not(:last-child) {
     text-align: center;
 }
 @media screen and (max-width: 479px) {
+    body > header#overview h1 {
+        margin-top: 0;
+    }
     #producers-partners nav li {
         max-width: 35%;
     }
@@ -216,6 +219,9 @@ body > header#overview li:not(:last-child) {
     }
 }
 @media screen and (min-width: 480px) and (max-width: 599px) {
+    body > header#overview h1 {
+        margin-top: 0.3em;
+    }
     #producers-partners nav li {
         max-width: 20%;
     }
