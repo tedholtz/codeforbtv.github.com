@@ -24,12 +24,6 @@ body > header > article,
 body > section > article,
 body > article > article,
 body > footer > article {
-    
-}
-body > header > article,
-body > section > article,
-body > article > article,
-body > footer > article {
     width: 26%;
     display: inline-block;
     padding: 0 3% 2.0em;
