@@ -9,8 +9,8 @@ li {
 h1 {
     margin-top: 0.4em;
     margin-bottom: 0.6em;
-    font-size: 3.0em;
-    line-height: 1.0;
+    font-size: 2.6em;
+    line-height: 1.1;
     font-weight: bold;
     color: #555;
 }
@@ -162,10 +162,19 @@ body > header#overview li:not(:last-child) {
     color: #888;
     text-transform: uppercase;
 }
+#producers-partners nav li {
+    display: inline-block;
+    margin-top: 0.6em;
+    vertical-align: middle;
+}
 #producers-partners nav li:not(:last-child) {
     margin-right: 1.6em;
     padding-right: 1.6em;
     border-right: none;
+}
+#producers-partners nav li img {
+    width: 100%;
+    height: auto;
 }
 #register p,
 #register a {
@@ -197,26 +206,16 @@ body > header#overview li:not(:last-child) {
 #connect ul {
     text-align: center;
 }
-.logo {
-    width: 150px;
-    height: 100px;
-    display: block;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-indent: -999em;
+@media screen and (max-width: 479px) {
+    #producers-partners nav li {
+        max-width: 35%;
+    }
 }
-.logo-vbsr-marketplace {
-    background-image: url(/media/VBSR-Marketplace-150x97.jpg);
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    #producers-partners nav li {
+        max-width: 20%;
+    }
 }
-.logo-found-line {
-    background-image: url(/media/Found-Line-150x56.jpg);
-}
-.logo-big-heavy-world {
-    background-image: url(/media/Big-Heavy-World-106x100.jpg);
-}
-.logo-code-for-america {
-    background-image: url(/media/Code-for-America-150x60.jpg);
 @media screen and (max-width: 767px) {
     body > header#overview li {
         display: block;
@@ -226,4 +225,12 @@ body > header#overview li:not(:last-child) {
         border-right: none;
     }
 }
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    #producers-partners nav li:not(:last-child) {
+        margin-right: 0.6em;
+        padding-right: 0.6em;
+    }
 }

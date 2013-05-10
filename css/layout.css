@@ -10,31 +10,8 @@ body > header,
 body > section,
 body > article,
 body > footer {
-    clear: both;
-    padding: 1.5em 5% 0;
+    padding: 1.5em 5% 1.0em;
 }
-body > header:before,
-body > section:before,
-body > article:before,
-body > footer:before,
-body > header > h1 ~ article:before,
-body > section > h1 ~ article:before,
-body > article > h1 ~ article:before,
-body > footer > h1 ~ article:before,
-body > header:after,
-body > section:after,
-body > article:after,
-body > footer:after,
-body > header > h1 ~ article:after,
-body > section > h1 ~ article:after,
-body > article > h1 ~ article:after,
-body > footer > h1 ~ article:after {
-    display: block;
-    clear: both;
-    color: transparent;
-    content: ".";
-}
-
 body > header > *,
 body > section > *,
 body > article > *,
@@ -53,13 +30,10 @@ body > header > article,
 body > section > article,
 body > article > article,
 body > footer > article {
-    width: 27.33333333%;
-    float: left;
-    clear: none;
+    width: 26%;
+    display: inline-block;
     padding: 0 3% 2.0em;
-}
-body article > h1 {
-    
+    vertical-align: top;
 }
 #overview {
     padding-bottom: 4.0em;
@@ -68,12 +42,10 @@ body article > h1 {
 #participate {
     background-color: #F5F5F5;
 }
-#participate #details {
-    width: 20%;
-}
 #participate #hackers,
 #participate #public {
-    width: 31%;
+    max-width: 400px;
+    width: 43%;
 }
 #producers-partners {
     border-top: 1px solid #AAA;
@@ -98,4 +70,18 @@ body > footer p {
 body > footer a:hover,
 body > footer a:focus {
     color: #BBB;
+}
+@media screen and (max-width: 599px) {
+    #participate #hackers,
+    #participate #public {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 767px) {
+    body > header > article,
+    body > section > article,
+    body > article > article,
+    body > footer > article {
+        width: 94%;
+    }
 }
