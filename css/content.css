@@ -32,6 +32,7 @@ ol li {
 }
 nav li {
     display: inline-block;
+    *display: inline;
     margin-left: 0;
     font-size: 1.5em;
     list-style: none;
@@ -140,6 +141,7 @@ body > header#overview ul {
 }
 body > header#overview li {
     display: inline-block;
+    *display: inline;
     margin-top: 0.2em;
     margin-left: 0.4em;
     margin-right: 0.4em;
@@ -164,6 +166,7 @@ body > header#overview li:not(:last-child) {
 }
 #producers-partners nav li {
     display: inline-block;
+    *display: inline;
     margin-top: 0.6em;
     vertical-align: middle;
 }
@@ -174,6 +177,7 @@ body > header#overview li:not(:last-child) {
 }
 #producers-partners nav li img {
     width: 100%;
+    *width: 150px;
     height: auto;
 }
 #register p,
