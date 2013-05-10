@@ -1,0 +1,263 @@
+h1,
+p,
+li {
+    margin-top: 0.8em;
+    font-size: 1.4em;
+    line-height: 1.4;
+    color: #666;
+}
+h1 {
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+    font-size: 2.6em;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #555;
+}
+.fontface h1,
+.fontface body > header#overview li {
+    font-family: "Alegreya";
+    letter-spacing: 0.05em;
+}
+li {
+    margin-top: 0.6em;
+    margin-left: 1.0em;
+    line-height: 1.2;
+}
+ul li {
+    list-style: disc;
+}
+ol li {
+    list-style: decimal;
+}
+nav li {
+    display: inline-block;
+    *display: inline;
+    margin-left: 0;
+    font-size: 1.5em;
+    list-style: none;
+}
+nav strong {
+    font-size: 1.05em;
+}
+li li,
+nav li li {
+    font-size: 1.0em;
+}
+nav li:not(:last-child) {
+    margin-right: 0.6em;
+    padding-right: 0.6em;
+    border-right: 1px solid #DDD;
+}
+a {
+    color: #666;
+    text-decoration: underline;
+}
+a:hover,
+a:focus {
+    color: #888;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+small {
+    font-size: 0.8em;
+}
+.button,
+.button:hover,
+.button:focus {
+    color: white;
+}
+.button {
+    display: block;
+    padding: 0.6em 1.2em;
+    background-color: #CA1F35;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.2)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background-color: #555;
+}
+body > header:not(#overview) > h1,
+body > header:not(#overview) > article:first-child > h1,
+body > header:not(#overview) > article:first-child ~ article > h1,
+body > section > h1,
+body > section > article:first-child > h1,
+body > section > article:first-child ~ article > h1,
+body > article > h1,
+body > article > article:first-child > h1,
+body > article > article:first-child ~ article > h1,
+body > footer > h1,
+body > footer > article:first-child > h1,
+body > footer > article:first-child ~ article > h1 {
+    font-size: 1.4em;
+    color: #AAA;
+    text-transform: uppercase;
+}
+body > header > h1,
+body > section > h1,
+body > article > h1,
+body > footer > h1 {
+    text-align: center;
+}
+body > header#overview h1,
+body > header#overview li,
+body > header#overview a {
+    color: white;
+}
+body > header#overview h1 {
+    margin-top: 0.6em;
+    margin-bottom: 0;
+    font-size: 8.0em;
+}
+body > header#overview li,
+body > header#overview a {
+    color: rgba(255, 255, 255, 0.8);
+}
+body > header#overview a:hover,
+body > header#overview a:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+body > header#overview h1 img.national-day-of-civic-hacking-logo {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body > header#overview ul {
+    margin-top: 0;
+    text-align: center;
+}
+body > header#overview li {
+    display: inline-block;
+    *display: inline;
+    margin-top: 0.2em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    font-size: 2.0em;
+    line-height: 1.1;
+    list-style: none;
+}
+body > header#overview li:not(:last-child) {
+    padding-right: 0.8em;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+#details h1 {
+    margin-top: 0.8em;
+    font-size: 2.5em;
+    color: #666;
+}
+#details li strong {
+    display: block;
+    font-size: 0.8em;
+    color: #888;
+    text-transform: uppercase;
+}
+#producers-partners nav li {
+    display: inline-block;
+    *display: inline;
+    margin-top: 0.6em;
+    vertical-align: middle;
+}
+#producers-partners nav li:not(:last-child) {
+    margin-right: 1.6em;
+    padding-right: 1.6em;
+    border-right: none;
+}
+#producers-partners nav li img {
+    width: 100%;
+    *width: 150px;
+    height: auto;
+}
+#register p,
+#register a {
+    color: white;
+}
+#register p {
+    margin-top: 0;
+    padding: 1.3em 10% 1.2em;
+    background-color: #CA1F35;
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    border-radius: 0.8em;
+    font-size: 1.8em;
+    line-height: 1.2;
+    text-align: center;
+}
+#register a:hover,
+#register a:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+#register p strong {
+    font-size: 1.2em;
+}
+#register p small {
+    color: rgba(255, 255, 255, 0.9);
+}
+#connect h1,
+#connect p,
+#connect ul {
+    text-align: center;
+}
+@media screen and (max-width: 479px) {
+    body > header#overview h1 {
+        margin-top: 0;
+    }
+    #producers-partners nav li {
+        max-width: 35%;
+    }
+    #register p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    body > header#overview h1 {
+        margin-top: 0.3em;
+    }
+    #producers-partners nav li {
+        max-width: 20%;
+    }
+    #register p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    #producers-partners nav li {
+        max-width: 20%;
+    }
+    #register p {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media screen and (max-width: 767px) {
+    body > header#overview li {
+        display: block;
+    }
+    body > header#overview li:not(:last-child) {
+        padding-right: 0;
+        border-right: none;
+    }
+}
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    #producers-partners nav li:not(:last-child) {
+        margin-right: 0.6em;
+        padding-right: 0.6em;
+    }
+}

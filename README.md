@@ -12,7 +12,7 @@ on [installing Jekyll](https://github.com/mojombo/jekyll/wiki/install). Once ins
 Jekyll can be run locally by running the following command from the root of this 
 project:
 
-    $ jekyll --server --auto
+    $ jekyll serve --watch
 
 The website should now be available on `localhost` port `4000`:  
 `http://localhost:4000/`
