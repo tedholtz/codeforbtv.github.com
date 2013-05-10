@@ -126,12 +126,11 @@ body > header#overview a:hover,
 body > header#overview a:focus {
     color: rgba(255, 255, 255, 0.9);
 }
-body > header#overview h1 .logo {
-    width: 950px;
-    height: 176px;
+body > header#overview h1 img.national-day-of-civic-hacking-logo {
+    max-width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(/media/National-Day-of-Civic-Hacking-950x176.png);
 }
 body > header#overview h1 small {
     display: block;
