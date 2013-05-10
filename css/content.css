@@ -182,7 +182,7 @@ body > header#overview li:not(:last-child) {
 }
 #register p {
     margin-top: 0;
-    padding: 1.3em 2.0em 1.2em;
+    padding: 1.3em 10% 1.2em;
     background-color: #CA1F35;
     -webkit-border-radius: 0.8em;
     -moz-border-radius: 0.8em;
@@ -210,10 +210,27 @@ body > header#overview li:not(:last-child) {
     #producers-partners nav li {
         max-width: 35%;
     }
+    #register p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
-@media screen and (min-width: 480px) and (max-width: 1023px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
     #producers-partners nav li {
         max-width: 20%;
+    }
+    #register p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    #producers-partners nav li {
+        max-width: 20%;
+    }
+    #register p {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 @media screen and (max-width: 767px) {
