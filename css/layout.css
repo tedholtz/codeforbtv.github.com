@@ -1,0 +1,130 @@
+body {
+    padding-bottom: 2.0em;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 62.5%;
+    color: #555;
+    text-align: center;
+}
+body > header,
+body > section,
+body > article,
+body > footer {
+    clear: both;
+    padding: 1.5em 5% 0;
+}
+body > header:before,
+body > section:before,
+body > article:before,
+body > footer:before,
+body > header > h1 ~ article:before,
+body > section > h1 ~ article:before,
+body > article > h1 ~ article:before,
+body > footer > h1 ~ article:before,
+body > header:after,
+body > section:after,
+body > article:after,
+body > footer:after,
+body > header > h1 ~ article:after,
+body > section > h1 ~ article:after,
+body > article > h1 ~ article:after,
+body > footer > h1 ~ article:after {
+    display: block;
+    clear: both;
+    color: transparent;
+    content: ".";
+}
+
+body > header > *,
+body > section > *,
+body > article > *,
+body > footer > * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+body > header > article,
+body > section > article,
+body > article > article,
+body > footer > article {
+    
+}
+body > header > article,
+body > section > article,
+body > article > article,
+body > footer > article {
+    width: 27.33333333%;
+    float: left;
+    clear: none;
+    padding: 0 3% 2.0em;
+}
+body article > h1 {
+    
+}
+#overview {
+    padding-bottom: 4.0em;
+    background-color: #888;
+}
+#participate {
+    background-color: #F5F5F5;
+}
+#participate #details {
+    width: 20%;
+}
+#participate #hackers,
+#participate #public {
+    width: 31%;
+}
+#producers-partners {
+    border-top: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+}
+#producers-partners article {
+    width: 94%;
+    text-align: center;
+}
+#tracks {
+    padding-bottom: 0;
+}
+#register p,
+#register a {
+    color: white;
+}
+#register p {
+    margin-top: 0;
+    padding: 1.4em 2.0em 1.2em;
+    background-color: #666;
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    border-radius: 0.8em;
+    font-size: 1.8em;
+    line-height: 1.2;
+    text-align: center;
+}
+#register a:hover,
+#register a:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+#register p strong {
+    font-size: 1.2em;
+}
+#register p small {
+    color: rgba(255, 255, 255, 0.9);
+}
+#connect h1,
+#connect p,
+#connect ul {
+    text-align: center;
+}
+body > footer p,
+body > footer a {
+    color: #AAA;
+}
+body > footer p {
+    font-size: 1.1em;
+    text-align: center;
+}
+body > footer a:hover,
+body > footer a:focus {
+    color: #BBB;
+}
