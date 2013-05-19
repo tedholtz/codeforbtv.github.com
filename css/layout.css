@@ -33,6 +33,9 @@ body > footer > article {
     padding-bottom: 4.0em;
     background-color: #4C99D3;
 }
+#overview.banner {
+    padding-bottom: 1.0em;
+}
 #participate {
     background-color: #F5F5F5;
 }
