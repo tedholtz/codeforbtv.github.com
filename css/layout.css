@@ -33,11 +33,16 @@ body > footer > article {
     padding-bottom: 4.0em;
     background-color: #4C99D3;
 }
+#overview.banner {
+    padding-bottom: 1.0em;
+}
 #participate {
     background-color: #F5F5F5;
 }
 #participate #hackers,
-#participate #public {
+#participate #public,
+#schedule #june-1,
+#schedule #june-2 {
     max-width: 400px;
     width: 43%;
 }
@@ -76,6 +81,10 @@ body > footer a:focus {
     body > section > article,
     body > article > article,
     body > footer > article {
+        width: 94%;
+    }
+    #schedule #june-1,
+    #schedule #june-2 {
         width: 94%;
     }
 }
