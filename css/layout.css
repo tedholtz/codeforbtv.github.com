@@ -37,7 +37,9 @@ body > footer > article {
     background-color: #F5F5F5;
 }
 #participate #hackers,
-#participate #public {
+#participate #public,
+#schedule #june-1,
+#schedule #june-2 {
     max-width: 400px;
     width: 43%;
 }
@@ -76,6 +78,10 @@ body > footer a:focus {
     body > section > article,
     body > article > article,
     body > footer > article {
+        width: 94%;
+    }
+    #schedule #june-1,
+    #schedule #june-2 {
         width: 94%;
     }
 }
