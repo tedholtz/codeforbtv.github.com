@@ -195,18 +195,18 @@ body > header#overview li:not(:last-child) {
     color: #888;
     text-transform: uppercase;
 }
-#producers-partners nav li {
+#producers-partners-sponsors nav li {
     display: inline-block;
     *display: inline;
     margin-top: 0.6em;
     vertical-align: middle;
 }
-#producers-partners nav li:not(:last-child) {
+#producers-partners-sponsors nav li:not(:last-child) {
     margin-right: 1.6em;
     padding-right: 1.6em;
     border-right: none;
 }
-#producers-partners nav li img {
+#producers-partners-sponsors nav li img {
     width: 100%;
     *width: 150px;
     height: auto;
@@ -248,7 +248,7 @@ body > header#overview li:not(:last-child) {
     body > header#overview.banner h1 img.national-day-of-civic-hacking-logo {
         max-width: 75%;
     }
-    #producers-partners nav li {
+    #producers-partners-sponsors nav li {
         max-width: 35%;
     }
     #register p {
@@ -263,7 +263,7 @@ body > header#overview li:not(:last-child) {
     body > header#overview.banner h1 img.national-day-of-civic-hacking-logo {
         max-width: 60%;
     }
-    #producers-partners nav li {
+    #producers-partners-sponsors nav li {
         max-width: 20%;
     }
     #register p {
@@ -275,7 +275,7 @@ body > header#overview li:not(:last-child) {
     body > header#overview.banner h1 img.national-day-of-civic-hacking-logo {
         max-width: 50%;
     }
-    #producers-partners nav li {
+    #producers-partners-sponsors nav li {
         max-width: 20%;
     }
     #register p {
@@ -296,7 +296,7 @@ body > header#overview li:not(:last-child) {
     h1 {
         font-size: 2.2em;
     }
-    #producers-partners nav li:not(:last-child) {
+    #producers-partners-sponsors nav li:not(:last-child) {
         margin-right: 0.6em;
         padding-right: 0.6em;
     }
