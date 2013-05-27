@@ -76,9 +76,15 @@ a {
     color: #666;
     text-decoration: underline;
 }
+h1 a {
+    text-decoration: none;
+}
 a:hover,
-a:focus {
+a:focus,
+h1 a:hover,
+h1 a:focus {
     color: #888;
+    text-decoration: underline;
 }
 strong {
     font-weight: bold;
